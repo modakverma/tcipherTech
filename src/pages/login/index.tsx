@@ -67,6 +67,7 @@ function Main() {
     setShowFailureAlert(false);
   }
   const handlelogin = async () => {
+    navigate('/add-org')
     const loginbody = {
       "password": password,
       "timezone": "5",

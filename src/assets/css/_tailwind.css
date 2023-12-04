@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+@tailwind base;
+@tailwind components;
+@layer utilities {
+    .bg-radial-pattern {
+      background: radial-gradient(141.42% 141.42% at 100% 0%, rgba(238, 238, 238, 0.00) 0%, #FFF 36.69%, rgba(255, 255, 255, 0.00) 72.16%, #EEE 79.9%, rgba(255, 255, 255, 0.00) 100%);
+      mix-blend-mode: soft-light;
+      opacity: 0.8;
+    }
+  }
+  @layer utilities {
+    .scrollbar-none {
+      scrollbar-width: none;
+      -ms-overflow-style: none;
+      &::-webkit-scrollbar {
+        display: none;
+      }
+    }
+  }
+  
+  @tailwind utilities;

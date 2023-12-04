@@ -1,0 +1,18 @@
+export const OTP_REQUEST_TYPE = {
+  LOGIN_OTP: 1,
+  SIGNUP_OTP: 2,
+  VERIFICATION_OTP: 3,
+  ACCOUNT_DEACTIVATE: 9,
+  ACCOUNT_ACTIVATE: 10
+};
+
+export const OTP_DESTINATION = {
+  MOBILE_OTP : 1,
+  EMAIL_OTP : 2
+};
+
+export const DEVICE_TYPE = {
+  WEB : 1,
+  ANDROID : 2,
+  IOS : 3
+};
